@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/904d5334a1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="image//logo.png" class="logo" /> -->
+          <h1 style="color: rgb(121, 65, 173); color: #ff004f;">CodeWithPankaj</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header_text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, I'm <span>Pankaj</span></h1>
+          <!-- <img src="/image/first.webp" alt=""> -->
+        </div>
+      </div>
+    </div>
+    <!-- ----------about--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about_col-1">
+            <img src="image/user.png" />
+          </div>
+          <div class="about_col-2">
+            <h1 class="sub-tital">About Me</h1>
+            <p>
+                I am a pankaj Software developer with 1 Year of experience in creating custom websites and web applications. As a dedicated web developer, I am committed to staying up-to-date with the latest technologies and trends in the industry. I approach each project with enthusiasm, creativity, and a focus on delivering a high-quality end product that meets the unique needs of each client.
+            </p>
+
+            <div class="tab_tital">
+              <p class="tab_links active_link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab_links" onclick="opentab('experiencs')">
+                Experience
+              </p>
+              <p class="tab_links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab_containt active_tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Desigining Web/App interfaces</li>
+
+                <li>
+                  <span>Web Development</span><br />Desigining Web/App
+                  Development
+                </li>
+
+                <li><span>Web Development</span><br />I'm Frontand</li>
+              </ul>
+            </div>
+
+            <div class="tab_containt" id="experiencs">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/UX Design Traning at
+                  Youtube Platform
+                </li>
+
+                <li>
+                  <span>2021 - 2023</span><br />I'm Singal Lead at Website/App
+                </li>
+
+                <li>
+                  <span>2022 - 2025</span><br />Internship Try For Compuny
+                </li>
+
+                
+              </ul>
+            </div>
+
+            <div class="tab_containt" id="education">
+              <ul>
+                <li><span>2019</span><br />Matrick Pass</li>
+
+                <li><span>2020</span><br />ITI For One year</li>
+
+                <li><span>2021</span><br />ADCA Course </li>
+
+                <li><span>2022</span><br />BCA from Dynamic ara bihar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- --------------services----------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tital"> My Services</h1>
+        <div class="services_list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI?UX Design</h2>
+                <p>We live in a beautiful era of design, with new techniques and trends coming and going. Frontend development is also gaining increased momentum, with more and more developers getting involved in UI/UX design.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions..</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------portfoloi------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tital"> My Work</h1>
+        <div class="work_list">
+            <div class="work">
+                <img src="image//work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you yo the talented people around the world.
+                        Dawnload it from play stor</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image//work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connect you yo the talented people around the world.
+                        Dawnload it from play stor</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image//work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connect you yo the talented people around the world.
+                        Dawnload it from play stor</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- --------------------contact-------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="sub-tital">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pk0158548@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8002264717</p>
+                <div class="social_icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/pankaj800226?tab=repositories"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+            </div>
+            <div class="contact_right">
+                <form>
+                    <input type="text" placeholder="Your name" name="name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+   <div class="copyright">
+    <p>copyright @ <i class="fa-solid fa-heart"></i>CodeWithPankaj</p>
+   </div>
+</div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab_links");
+      var tabcontents = document.getElementsByClassName("tab_containt");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active_link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active_tab");
+        }
+        event.currentTarget.classList.add("active_link")
+        document.getElementById(tabname).classList.add("active_tab");
+      }
+    </script>
+
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemen.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemen.style.right = "-200px";
+        }
+
+    </script>
+  
+  </body>
+</html>
